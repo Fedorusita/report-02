@@ -45,3 +45,26 @@ $ sudo apt install clang-format
 10. git log main   
 11. git branch -d patch1  
 
+
+**task-3**  
+1. git checkout -b patch2   
+2. clang-format -i -style=Mozilla "hello_world.cpp"  
+3. git commit -a -m "Changed code style in cpp file"  
+   git push -u origin patch2  
+4. git checkout main    
+   edit "Hello world.cpp" 
+   git commit -a -m "Fixed cpp file"
+   git push -u origin patch2  
+5. git pull origin master  
+   git rebase master  
+   edit "hello_world.cpp"  
+   git commit -a -m "Update code"  
+6. git pull origin master  
+   git rebase master  
+   edit "Hello world.cpp"  
+   git commit -a -m "Update Hello world.cpp"  
+   git rebase --continue  
+ 7.Конфликты пропали.    
+
+
+
