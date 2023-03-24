@@ -5,16 +5,16 @@ $ sudo snap install sublim-text
 $ sudo apt install clang-format 
 
 **task-1**  
-1.Создать пустой репозиторий на git  
-2.Создать локальный репозиторий mkdir ...  
- Выполнить команды со страницы на гите  
- echo "# test" >> README.md  
- git init  
- git add README.md  
- git commit -m "first commit"  
- git branch -M main  
- git remote add origin https://github.com/Fedorusita/test.git  
- git push -u origin main  
+1. Создать пустой репозиторий на git  
+2. Создать локальный репозиторий mkdir ...  
+   Выполнить команды со страницы на гите  
+   echo "# test" >> README.md  
+   git init  
+   git add README.md  
+   git commit -m "first commit"  
+   git branch -M main  
+   git remote add origin https://github.com/Fedorusita/test.git  
+   git push -u origin main  
 3. Создать cpp  
    touch hello_world.cpp  
    alias edit=subl  
