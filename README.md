@@ -36,7 +36,7 @@ $ sudo apt install clang-format
 3.  git commit -a -m "Fixed cpp file"  
     git push -u origin patch1  
 4-5 Проверяем и делаем pr  
-6. edit 'hello_world.cpp"
+6. edit 'hello_world.cpp"  
    Вносим правки  
 7.  git commit -a -m "Code with comments"     
     git push -u origin patch1   
