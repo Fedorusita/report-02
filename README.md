@@ -4,7 +4,7 @@ $ sudo apt install git
 $ sudo snap install sublim-text  
 $ sudo apt install clang-format 
 
-**task-1**
+**task-1**  
 1.Создать пустой репозиторий на git  
 2.Создать локальный репозиторий mkdir ...  
  Выполнить команды со страницы на гите  
