@@ -2,8 +2,9 @@
 Перед лабораторной рекомендуется выполнить:  
 $ sudo apt install git  
 $ sudo snap install sublim-text  
-$ sudo apt install clang-format  
-task-1  
+$ sudo apt install clang-format 
+
+**task-1**
 1.Создать пустой репозиторий на git  
 2.Создать локальный репозиторий mkdir ...  
  Выполнить команды со страницы на гите  
@@ -27,4 +28,20 @@ task-1
 9. git push -u origin main  
 
 
-task-2  
+**task-2**
+1. Локально создаём новую ветку   
+    git checkout -b patch1  
+2. edit "hello_world.cpp"  
+   Вносим изменения     
+3.  git commit -a -m "Fixed cpp file"  
+    git push -u origin patch1  
+4-5 Проверяем и делаем pr  
+6. edit 'hello_world.cpp"
+   Вносим правки  
+7.  git commit -a -m "Code with comments"     
+    git push -u origin patch1   
+8. Мержим и удаляем в удаленном репозитории  
+9. git pull origin  
+10. git log main   
+11. git branch -d patch1  
+
